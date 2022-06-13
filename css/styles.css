@@ -24,7 +24,6 @@ body{
     color: #212121;
     background-color: #fff;
     font-family: 'Roboto', sans-serif;
-    width: 1600px;    
 }
 
 .header-container{
@@ -39,15 +38,21 @@ body{
 
 .top-logo:hover{
     color: #2196F3;
+    letter-spacing: 0.03em;
 }
 
 .web-logo{
     color: #2196F3;
+    letter-spacing: 0.03em;
 }
 
 .nav-site .link:hover,
 .nav-site .link:focus{
     color: #2196F3;
+}
+
+.nav-contacts{
+    letter-spacing: 0.03em;
 }
 
 .nav-site .link.current{
@@ -59,12 +64,15 @@ body{
     background-color: #F5F4FA;
 }
 
+
+
 .phone-num,
 .section-item,
 .team-prof,
 .connection,
 .mail-adress{
     color: #757575;
+    letter-spacing: 0.02em;
 }
 
 /* Hero */
@@ -94,6 +102,12 @@ body{
 
 .gallery-list li{
     background-color: #fff;
+}
+
+.gallery-item{
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 /* Occupation */
