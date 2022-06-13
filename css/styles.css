@@ -1,0 +1,138 @@
+/*
+1. Осн.текст            color: #212121;
+2. Заметки/доп.текст    color: #757575;
+3. Страница             color: #FFFFFF;
+4. Фон                  color: #2F303A; color: #F5F4FA; color: #E5E5E5;
+5. Ссылка/Кнопка        color: #2196F3;
+*/
+:root{
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --white-text-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --bg-dark-color: #2F303A;
+    --add-bg-color: #E5E5E5;
+    --light-bg-color: #F5F4FA;
+}
+
+
+ul{
+    list-style: none;
+}
+
+body{
+    color: #212121;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    width: 1600px;    
+}
+
+.header-container{
+    background-color: #fff;
+}
+
+/* Contacts navigation */
+
+.nav-site a{
+    color: #212121;
+}
+
+.top-logo:hover{
+    color: #2196F3;
+}
+
+.web-logo{
+    color: #2196F3;
+}
+
+.nav-site .link:hover,
+.nav-site .link:focus{
+    color: #2196F3;
+}
+
+.nav-site .link.current{
+    color: var(--accent-color);
+}
+
+.menu p{
+    color: #212121;
+    background-color: #F5F4FA;
+}
+
+.phone-num,
+.section-item,
+.team-prof,
+.connection,
+.mail-adress{
+    color: #757575;
+}
+
+/* Hero */
+/* Buttons */
+
+.button{
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+    
+}
+ 
+.hero{
+    background-color: #2F303A;
+}
+
+.hero-title{
+    color: #fff;
+}
+
+/* What we do */
+
+/* Gallery */
+
+.gallery-list p{
+    color: #757575;
+}
+
+.gallery-list li{
+    background-color: #fff;
+}
+
+/* Occupation */
+
+.section-tasks, .wwd{
+    background-color: #E5E5E5;
+}
+
+.explan-list > .title{
+    color: #212121;
+}
+
+
+
+
+/* Team */
+
+.staff{
+    background-color: #F5F4FA;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #2F303A;
+}
+
+.footer-logo:hover{
+    color: #2196F3;
+}
+
+.studio-logo{
+    color: #fff;
+}
+
+.adress-style{
+    color: #fff;
+}
+
+.connection{
+    color: rgba(255, 255, 255, 0.6);
+}
