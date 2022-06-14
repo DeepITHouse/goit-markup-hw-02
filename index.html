@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>HomeWork-1</title>
   </head>
@@ -17,26 +18,32 @@
     <!------Header------>
     <header class="header">
       <div class="header-container">
-      <nav class="nav-site">
-        <a href="./index.html" class="top-logo link">
-          <span>Web</span>Studio
-        </a>
+        <nav class="nav-site">
+          <a href="./index.html" class="top-logo link">
+            <span>Web</span>Studio
+          </a>
+          <ul>
+            <li class="studio-style">
+              <a class="studio link" href="./index.html">Студия</a>
+            </li>
+            <li class="portfolio-stylt">
+              <a class="portfolio link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="contacts-style">
+              <a class="contacts link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
         <ul>
-          <li class="studio"><a class="link current" href="./index.html">Студия</a></li>
-          <li class="portfolio"><a class="link-portfolio link" href="./portfolio.html">Портфолио</a></li>
-          <li class="contacts"><a class="link-contacts link" href="">Контакты</a></li>
+          <li>
+            <a class="mailform link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="phone-num link" href="tel:+380961111111">+380961111111</a>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li>
-          <a class="mailform link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="phone-num link" href="tel:+380961111111">+380961111111</a>
-        </li>
-      </ul>
       </div>
     </header>
     <!------MainContent------>
@@ -107,7 +114,12 @@
             />
           </li>
           <li class="design-item">
-            <img src="./Img.hw/3img.jpg" alt="designer" width="370" class="designer" />
+            <img
+              src="./Img.hw/3img.jpg"
+              alt="designer"
+              width="370"
+              class="designer"
+            />
           </li>
         </ul>
       </section>
@@ -116,7 +128,8 @@
         <h2 class="team-title">Наша команда</h2>
         <ul>
           <li>
-            <img class="photo-igor"
+            <img
+              class="photo-igor"
               src="./Img.hw/IgorD.jpg"
               alt="Игорь Демьяненко (product designer)"
               width="270"
@@ -126,7 +139,8 @@
           <h3 class="product-title">Игорь Демьяненко</h3>
           <p class="team-prof">Product Designer</p>
           <li>
-            <img class="photo-olga"
+            <img
+              class="photo-olga"
               src="./Img.hw/OlgaR.jpg "
               alt="Ольга Репина (frontend developer)"
               width="270"
@@ -136,7 +150,8 @@
           <h3 class="frontend-title">Ольга Репина</h3>
           <p class="team-prof">Frontend Developer</p>
           <li>
-            <img class="photo-nick"
+            <img
+              class="photo-nick"
               src="./Img.hw/NikT.jpg"
               alt="Николай Тарасов (marketing)"
               width="270"
@@ -146,7 +161,8 @@
           <h3 class="marketing-title">Николай Тарасов</h3>
           <p class="team-prof">Marketing</p>
           <li>
-            <img class="photo-mich"
+            <img
+              class="photo-mich"
               src="./Img.hw/MiKeE.jpg"
               alt="Михаил Ермаков (UI Designer)"
               width="270"
@@ -154,8 +170,8 @@
             />
           </li>
           <div class="ui-style">
-          <h3 class="ui-title">Михаил Ермаков</h3>
-          <p class="team-prof">UI Designer</p>
+            <h3 class="ui-title">Михаил Ермаков</h3>
+            <p class="team-prof">UI Designer</p>
           </div>
         </ul>
       </section>
@@ -163,29 +179,32 @@
     <!------Footer------>
     <footer class="footer">
       <div class="footer-container">
-        <a href="./index.html" class="footer-logo link">Web<span>Studio</span>
+        <a href="./index.html" class="footer-logo link"
+          >Web<span>Studio</span>
         </a>
-      <address>
-        <ul>
-          <li>
-            <a
-              class="adress"
-              href="https://bit.ly/3pXMvUd"
-              target="_blank"
-              rel="noopener noreferrer"
-              >г. Киев, бульвар Леси Украинки, 26
-            </a>
-          </li>
-          <li>
-            <a class="footer-mail link" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a class="footer-tel link" href="tel:+380961111111">+380961111111</a>
-          </li>
-        </ul>
-      </address>
+        <address>
+          <ul>
+            <li>
+              <a
+                class="adress link"
+                href="https://bit.ly/3pXMvUd"
+                target="_blank"
+                rel="noopener noreferrer"
+                >г. Киев, бульвар Леси Украинки, 26
+              </a>
+            </li>
+            <li>
+              <a class="footer-mail link" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a class="footer-tel link" href="tel:+380961111111"
+                >+380961111111</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
     </footer>
   </body>
