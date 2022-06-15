@@ -10,9 +10,15 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>HomeWork-1</title>
+    <title>HomeWork-2</title>
   </head>
   <body>
     <!-- Header -->
@@ -20,13 +26,13 @@
       <div class="header-container">
         <nav class="nav-site">
           <a href="./index.html" class="top-logo link">
-            <span>Web</span>Studio
+            <span class="web-style">Web</span>Studio
           </a>
-          <ul>
+          <ul class="nav-menu">
             <li class="studio-style">
-              <a class="studio link" href="./index.html">Студия</a>
+              <a class="studio link current" href="./index.html">Студия</a>
             </li>
-            <li class="portfolio-stylt">
+            <li class="portfolio-style">
               <a class="portfolio link" href="./portfolio.html">Портфолио</a>
             </li>
             <li class="contacts-style">
@@ -50,19 +56,23 @@
     <main>
       <!--Hero-->
       <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button
-          type="button"
-          name="Заказать услугу"
-          style="width: 136px; height: 30px"
-          class="button"
-        >
-          Заказать услугу
-        </button>
+        <div class="hero-container">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <a href="#" class="btn-link"
+            ><button
+              type="button"
+              name="Заказать услугу"
+              style="width: 136px; height: 30px"
+              class="button-style"
+            >
+              Заказать услугу
+            </button>
+          </a>
+        </div>
       </section>
       <!--Occupation-->
       <section class="tasks">
-        <ul>
+        <ul class="block-tasks">
           <li class="detail-style">
             <h3 class="details-title">Внимание к деталям</h3>
             <p class="details-text">
