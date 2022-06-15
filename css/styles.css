@@ -83,7 +83,7 @@ address{
 }
 
 .studio{
-    color: var(--accent-color);
+    color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -94,13 +94,19 @@ address{
     color: var(--accent-color);
 }
 
+
 .portfolio{
-    color: var(--accent-color);
+    color: var(--primary-text-color-);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 } 
+
+.current{
+    color: var(--accent-color);
+}
+
 .contacts{
     color: var(--primary-text-color);
     font-weight: 500;
@@ -110,7 +116,7 @@ address{
 }
 
 .mailform{
-    color: var(--accent-color);
+    color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -155,6 +161,7 @@ address{
 .btn-link > button{
     color: var(--white-text-color);
     background-color: var(--accent-color);
+    font-family: inherit;
     border-radius: 4px;
     position: absolute;
     left: 732px;
@@ -179,7 +186,6 @@ address{
 }
 .details-text, .punctual-text, .plan-text, .technology-text{
     color: var(--secondary-text-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71    ;
     letter-spacing: 0.03em;
@@ -209,7 +215,7 @@ address{
     display: inline-block;
 }
 
-.all-list, .website-list, .app-list,
+.total-list, .website-list, .app-list,
 .design-list, .marketing-list{
     color: var(--primary-text-color);
     font-weight: 500;
@@ -220,6 +226,11 @@ address{
     display: inline-block;
 }
 
+.total{
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+    font-family: inherit;
+}
 
 
 /* ------ Gallery ------ */
@@ -239,7 +250,6 @@ address{
 
 .gallery > p{
     color: var(--secondary-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
