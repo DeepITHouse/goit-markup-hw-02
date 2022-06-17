@@ -52,6 +52,10 @@ address{
     height: 80px;
 }
 
+.portfolio-border{
+    border: 1px solid #ECECEC;
+}
+
 .web-style{
     color: var(--accent-color);
 }
@@ -333,8 +337,21 @@ address{
 .footer{
     background-color: var(--bg-dark-color);
     width: 1600px;
-    padding-right: 15px;
-    padding-left: 15px;
+}
+
+.footer-container{
+    padding-top: 60px;
+    padding-right: 1154px;
+    padding-bottom: 60px;
+    padding-left: 215px;
+}
+
+.footer-logo, span:hover{
+    color: var(--accent-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .adress{
