@@ -75,18 +75,10 @@ address{
 .header{
     background-color: var(--white-text-color);
     width: 1200px;
-    height: 80px;
 }
 
-.header-container{
-    width: 1140px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
-
-.logo link:hover,
-.logo link:focus{
+.logo:hover,
+.logo:focus{
     color: var(--accent-color);
 }
 
@@ -102,21 +94,12 @@ address{
 
 /* ----Menu / Contacts */
 
-.nav-site,
-.nav-menu,
-.contacts-menu{
-    align-items: center;
-}
-
 .studio, .portfolio, .contacts{
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    margin-right: 50px;
-    margin-top: 32px;
-    margin-bottom: 32px;
     list-style-type: none;
 }
 
@@ -126,15 +109,6 @@ address{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    margin-left: auto;
-}
-
-.mailform{
-    margin-right: 50px;
-}
-
-.style{
-    display: block;
 }
 
 .link:hover,
@@ -150,30 +124,20 @@ address{
 
 .hero{
     background-color: var(--bg-dark-color);
-    padding-top: 200px;
-    padding-bottom: 200px;
-    text-align: center;
-    margin-bottom: 94px;
 }
 
 .hero-title{
     color: var(--white-text-color);
-    width:696px;
-    margin-top: 0;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    margin: 0 auto 30px;
 }
 
 .btn-link > button{
     color: var(--white-text-color);
     background-color: var(--accent-color);
-    border-radius: 4px;
-    margin: 0 auto;
     cursor: pointer;
 }
 
@@ -182,12 +146,8 @@ address{
     background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
-    align-items: center;
-    text-align: center;
     font-family: inherit;
     letter-spacing: 0.06em;
-    border-radius: 4px;
 }
 
 .btn-style:hover,
@@ -199,12 +159,7 @@ address{
 
 /* -- Occupation -- */
 
-.tasks-container{
-    padding-left: 15px;
-}
-
 .tasks-list{
-    margin-bottom: 94px;
     list-style: none;
 }
 
@@ -215,7 +170,6 @@ address{
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-bottom: 10px;
 }
 
 .tasks-text{
@@ -234,7 +188,6 @@ address{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    text-align: center;
     letter-spacing: 0.03em;
 }
 
@@ -242,7 +195,6 @@ address{
 .btn:focus{
     color: var(--white-text-color);
     background-color: var(--accent-color);
-    border-radius: 4px;
 }
 
 /* ------ Gallery ------ */
@@ -257,6 +209,7 @@ address{
 
 .gallery-list p{
     color: var(--secondary-text-color);
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
@@ -264,18 +217,12 @@ address{
 
 /*------ What we do ------*/
 
-.wwd-container{
-    padding-bottom: 94px;
-    padding-left: 15px;
-}
-
 .wwd-title{
     color: var(--primary-text-color);
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 50px;
 }
 
 /*------ Team ------*/
@@ -286,19 +233,10 @@ address{
 
 .team-title{
     color: var(--primary-text-color);
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    text-align: center;
     letter-spacing: 0.03em;
-    padding-top: 94px;
-    padding-bottom: 50px;
-}
-
-.spot-no{
-    margin-top: 16px;
-    margin-right: 16px;
-    margin-left: 16px;
-    padding: 40px;
 }
 
 .team-item{
@@ -312,7 +250,6 @@ address{
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    display: block;
 }
 
 .team-prof{
@@ -323,7 +260,6 @@ line-height: 1.18;
 letter-spacing: 0.03em;
 }
 
-
 /*------ Footer ------*/
 
 .footer{
@@ -331,9 +267,7 @@ letter-spacing: 0.03em;
 }
 
 .footer-container{
-    margin-left: 215px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+
 }
 
 .footer-logo, span:hover{
@@ -350,8 +284,6 @@ letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    padding-top: 20px;
-    padding-bottom: 10px;
 }
 
 .footer-mail, .footer-tel{
@@ -360,5 +292,4 @@ letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    padding-bottom: 10px;
 }
