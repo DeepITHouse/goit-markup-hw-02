@@ -191,6 +191,11 @@ address{
     letter-spacing: 0.03em;
 }
 
+.button{
+    background-color: var(--light-bg-color);
+
+}
+
 .btn:hover,
 .btn:focus{
     color: var(--white-text-color);
