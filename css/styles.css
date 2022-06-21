@@ -195,8 +195,8 @@ address{
 
 }
 
-.btn:hover,
-.btn:focus{
+.button:hover,
+.button:focus{
     color: var(--white-text-color);
     background-color: var(--accent-color);
 }
